@@ -1,0 +1,106 @@
+<div class="toolbar-container">
+<div class="name">
+  <img style="height: 40px; margin-right: 10px;" src="../assets/asset.png">
+  <a routerLink=""><div class="name-sub">ANC</div></a></div>
+<div class="toolbar" role="banner">
+  <div class="link-container">
+  <a routerLink="realEstate">Direito Imobiliário</a>
+  <a routerLink="banking">Direito Bancário</a>
+  <a routerLink="civil">Direito Civil</a>
+  <a routerLink="business">Direito Empresarial</a>
+  <a routerLink="criminal">Direito Penal</a>
+  <a routerLink="law">Outros</a>
+  <a routerLink="profile">Perfil</a>
+  <a routerLink="contact">Contato</a>
+  
+</div>
+<div class="telephone-container">
+  <a href="tel:32999652252" >(32) 99965-2252</a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="darkblue" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>
+</div>
+<div class="sname-container1">
+  <div class="smaller-name1"><a href="tel:32999652252" ><svg style="height: 20px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="darkblue" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg></a>
+  </div>
+</div>
+                    <div class="sname-container">
+                      <div class="smaller-name"><a routerLink=""><img src="../assets/asset.png"></a></div>
+                    </div>
+<div class="button-container">
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
+   class="toggle-menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <a routerLink="realEstate">Direito Imobiliário</a>
+    </button>
+    <button mat-menu-item >
+      <a routerLink="banking">Direito Bancário</a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="civil">Direito Civil</a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="business">Direito Empresarial</a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="criminal">Direito Penal</a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="law">Outros</a>
+    </button>
+    <button mat-menu-item >
+      <a routerLink="profile">Perfil</a>
+    </button>
+    <button mat-menu-item>
+      <a routerLink="contact">Contato</a>
+    </button>
+  </mat-menu>
+</div>
+
+</div>
+</div>
+
+
+<div class="content" role="main">
+  <router-outlet></router-outlet>
+  
+</div>
+
+
+<footer class="footer">
+  <div class="footer-wrapper">
+  <div class="column-wrapper">
+  <div class="footer-column">
+    <span class="footer-title"> Aguinaldo Cardoso Advocacia</span>
+    <span class="footer-item">Telefone: (32) 99965-2252</span>
+    <span class="footer-item">Email: cardosoaguinaldo27@gmail.com</span>
+    <span class="footer-item">Endereço: Av. Barão do Rio Branco, 2721 - 202 - Centro, Juiz de Fora - MG, 36010-012</span>
+  </div>
+</div>
+<div class="column-wrapper">
+  <div class="footer-column">
+    <span class="footer-title">Mapa do Site</span>
+    <a routerLink="realEstate" class="footer-item" >Direito Imobiliário</a>
+  <a routerLink="banking" class="footer-item" >Direito Bancário</a>
+  <a routerLink="civil" class="footer-item" >Direito Civil</a>
+  <a routerLink="business" class="footer-item" >Direito Empresarial</a>
+  <a routerLink="criminal" class="footer-item" >Direito Penal</a>
+  <a routerLink="law" class="footer-item" >Outros</a>
+  <a routerLink="profile" class="footer-item" >Perfil</a>
+  <a routerLink="contact" class="footer-item" >Contato</a>
+  </div>
+</div>
+<div class="column-wrapper">
+  <div class="footer-column">
+    <span class="footer-title">Mídia</span>
+    <span class="footer-item">Instagram:</span>
+    <a href="https://www.instagram.com/aguinaldocardosoanc/"><span class="footer-item">@aguinaldocardosoanc</span></a>
+    <span class="footer-item">LinkedIn:</span>
+    <a href="https://br.linkedin.com/in/aguinaldo-cardoso-69385474"><span class="footer-item">Aguinaldo Cardoso</span></a>
+    <span class="footer-item">Whatssapp:</span>
+    <a href="https://api.whatsapp.com/send?phone=5532999652252"><span class="footer-item">+55 32 99965-2252</span></a>
+  </div>
+</div>
+</div>
+</footer>

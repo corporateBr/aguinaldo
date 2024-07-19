@@ -1,0 +1,96 @@
+
+<style>
+
+  .container-div {
+   width: 100%;
+  
+  }
+  
+  .second-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  
+  .column-one,
+  .column-two {
+    width: 50%;
+    padding: 100px;
+  }
+  
+  .column-one,
+  .first-text,
+  .column-two {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .resume,
+  .resume-subtitle {
+    color: rgb(218, 182, 67);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .resume-title {
+    color: rgb(19, 0, 63);
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .resume-text {
+    color: rgb(35, 0, 117);
+    margin-bottom: 10px;
+  }
+  
+  
+  .img-second-column,
+  .text-second-column {
+     margin-bottom: 10px;
+  }
+
+
+  @media screen and (max-width: 575px) { 
+
+    .second-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-one,
+.column-two {
+  width: 100%;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+  }
+
+  
+  </style>
+  
+  <div class="second-div container-div">
+    <div class="column-two">
+          <div>
+          <img class="img-photo img-second-column" style="width:100%" src="../../assets/asset.png">
+        </div>
+    </div>
+    <div class="column-one">
+      <div class="first-text">
+        <span class="resume">RESUMO</span>
+        <span class="resume-title">Biografia</span>
+        <span class="resume-text">Aguinaldo Cardoso, advogado com de experiência de mercado atuando em diversas áreas, entre elas direito imobiliário, (corretagem de imóveis com assessoria e atuação na área), direito civil, inventário e testamento e outros. Formado no ano de 2008 vem atuando na cidade de Juiz de Fora em busca de ajudar seus clientes na melhor forma. </span>
+      </div>
+      <div class="first-text">
+        <span class="resume-title">Formação Acadêmica</span>
+        <span class="resume-text">Vianna Junior / Juiz de Fora / MG Bacharel em Direito 2002 – 2006</span>
+      </div>
+      <div class="first-text">
+        <span class="resume-title">Cadastro OAB MG</span>
+        <span class="resume-text">110403</span>
+      </div>
+    </div>
+  </div>
+  
